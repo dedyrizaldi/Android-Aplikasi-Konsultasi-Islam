@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_height="wrap_content"
+android:gravity="left|center"
+android:layout_width="fill_parent"
+android:paddingBottom="5px"
+android:background="#F5DEB3"
+android:paddingTop="5px"
+android:paddingLeft="5px">
+
+<ImageView android:id="@+id/imgCari"
+android:layout_width="200px"
+android:layout_height="200px"
+android:maxWidth="50px"
+android:maxHeight="50px"
+android:minWidth="50px"
+android:minHeight="50px"
+>
+</ImageView>
+
+<TextView android:id="@+id/txtCari"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:textSize="35px"
+android:textStyle="bold"
+android:layout_marginLeft="10px"
+android:textColor="#000000">
+</TextView>
+
+</LinearLayout>

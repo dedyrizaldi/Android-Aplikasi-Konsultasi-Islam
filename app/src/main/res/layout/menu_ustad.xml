@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#d4e1c4"  >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/progressBar"
+            android:gravity="center"
+            android:text="Selamat Datang Di Menu Ustad"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+
+        <ImageView
+            android:id="@+id/myGambar"
+            android:layout_width="320px"
+            android:layout_height="420px"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/images" />
+
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dip" >
+        <ImageView
+            android:id="@+id/btnprofil"
+            android:layout_width="126dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_profil" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/btninbox"
+            android:layout_width="126dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_inbox" />
+
+        <ImageView
+            android:id="@+id/btnoutbox"
+            android:layout_width="126dp"
+            android:layout_height="130dp"
+            android:src="@drawable/ic_outbox" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

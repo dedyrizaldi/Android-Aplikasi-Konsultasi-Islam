@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.user.konsultasi">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        android:supportsRtl="true">
+
+        <activity android:name=".Loading">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Notif"/>
+        <activity android:name=".List_user"/>
+        <activity android:name=".List_pertanyaan"/>
+        <activity android:name=".List_pengguna"/>
+        <activity android:name=".Detail_user"/>
+        <activity android:name=".Detail_pengguna"/>
+        <activity android:name=".Detail_pertanyaan"/>
+        <activity android:name=".Login"/>
+        <activity android:name=".Form_Pertanyaan"/>
+        <activity android:name=".Daftar"/>
+        <activity android:name=".Menu_pengguna"/>
+        <activity android:name=".Menu_ustad"/>
+        <activity android:name=".Profil"/>
+        <activity android:name=".Profil_user"/>
+        <activity android:name=".Pertanyaan"/>
+        <activity android:name=".Cari"/>
+
+
+        <activity android:name=".List_outbox"/>
+        <activity android:name=".Detail_outbox"/>
+        <activity android:name=".List_inbox"/>
+        <activity android:name=".Detail_inbox"/>
+        <activity android:name=".List_histori_pengguna"/>
+        <activity android:name=".Detail_histori_pengguna"/>
+        <activity android:name=".List_draft"/>
+        <activity android:name=".List_cekpertanyaan"/>
+        <activity android:name=".Upload_Foto"/>
+
+
+        <activity android:name=".Menu_guest"/>
+
+    </application>
+</manifest>
